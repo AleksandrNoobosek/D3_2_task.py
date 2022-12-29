@@ -35,7 +35,7 @@ import random
 n = int(input('Введите количество элементов списка: '))
 list = []
 from random import randint
-for i in range(1, n + 1):    
+for el in range(1, n + 1):    
     list.append(randint(1,100))
 print(list)
 random.shuffle(list)
